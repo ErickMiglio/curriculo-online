@@ -28,6 +28,31 @@ p {
     letter-spacing: 0.05rem;
 }
 
+footer {
+    line-height: 50px;
+    height: 100px;
+    background-image: linear-gradient(60deg, #5a10b5 0%, #002349 100%);
+    padding: 28px;
+    color: beige;
+}
+
+footer a {
+    font-size: 20px;
+    color: gold;
+}
+
+footer ul {
+    float: right;
+    display: table;
+}
+
+footer ul li {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    height: 50px;
+}
+
 .container{
     min-height: 100vh;
     width: 100%;
@@ -38,13 +63,15 @@ p {
 .section-title {
     font-size: 4rem;
     font-weight: 500;
-    color: black;
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
     margin-top: 5px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     text-align: center;
 }
+
+
 
 
 
@@ -126,7 +153,7 @@ p {
     z-index: -1;
 }
 
-/* Seção de Portifólio */
+/* Seção do Curriculo */
 
 #curriculo .curriculo{
     flex-direction: column;
@@ -201,6 +228,10 @@ p {
 #curriculo .project-item:hover .project-img img{
     transform: scale(1.1);
 }
+
+
+
+
 
 /* Keyframes */
 
